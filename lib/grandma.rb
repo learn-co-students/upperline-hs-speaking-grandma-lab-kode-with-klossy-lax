@@ -13,6 +13,8 @@ while bye < 3
   response = gets.chomp
     if response == "BYE"
       bye = bye + 1
+      else
+      bye = 0
     end
   puts speak_to_grandma(response)
 end
